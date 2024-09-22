@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #2e2e2e20;
+}
+
+.thumbnail {
+  width: 200px;
+  margin-right: 24px;
+}

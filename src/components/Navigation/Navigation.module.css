@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  background-color: #2e2e2e;
+  padding: 20px 40px 20px 40px;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
