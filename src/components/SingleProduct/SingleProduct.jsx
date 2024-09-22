@@ -4,12 +4,16 @@ export const SingleProduct = (props) => {
   return (
     <section className={styles.container}>
       <div>
-        <img src={props.product.thumbnail} className={styles.thumbnail} />
+        <img
+          src={props.product.thumbnail}
+          alt={props.product.title}
+          className={styles.thumbnail}
+        />
       </div>
       <div>
-        <h3>{props.product.title}</h3>
+        <h2 className={styles.title}>{props.product.title}</h2>
         <p>{props.product.description}</p>
-        <p>Price: {props.product.price}$</p>
+        <p className={styles.price}>Price: {props.product.price}$</p>
       </div>
     </section>
   );
